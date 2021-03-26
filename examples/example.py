@@ -9,7 +9,6 @@ sys.path.append(os.path.join(os.pardir, os.pardir))
 
 from src.Webhook import Webhook
 
-sys.path.append("src/")
 settings = json.load(open("settings.json"))
 
 webhook = Webhook(
